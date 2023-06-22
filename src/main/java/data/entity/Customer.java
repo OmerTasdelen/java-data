@@ -25,6 +25,6 @@ public class Customer {
     private String priority;
 
     @Column (name = "tax_number")
-    private String taxNumber;
+    private Integer taxNumber;
 
 }
